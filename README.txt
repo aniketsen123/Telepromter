@@ -1,0 +1,1 @@
+This is an Telepromter app that I have imported it was in java , and there where many issues as the gradle was outdated. i converted the whole thing to kotlin . And now it is working fine.

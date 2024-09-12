@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.MainActivity"
+    android:background="@color/white">
+
+    <EditText
+        android:id="@+id/scriptTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_20dp"
+        android:background="@color/white"
+        android:hint="@string/add_new_script_title"
+        android:imeOptions="actionNext"
+        android:textColorHint="@color/colorPrimary"
+        android:theme="@style/TextPrimary"
+        android:inputType="text"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/scriptText"/>
+
+    <EditText
+        android:id="@+id/scriptText"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0dp"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:layout_marginBottom="@dimen/dimen_20dp"
+        android:background="@color/white"
+        android:hint="@string/add_new_script"
+        android:gravity="start"
+        android:contentDescription="@string/script_body_edit_cd"
+        android:inputType="textMultiLine"
+        android:imeOptions="actionDone"
+        android:textColorHint="@color/colorPrimary"
+        android:theme="@style/TextPrimary"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scriptTitle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

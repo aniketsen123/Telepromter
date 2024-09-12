@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:contentDescription="@string/script_presentation_card_cd"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen_15dp"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:contentDescription="@string/time_item_cd"
+        android:id="@+id/timeRemote"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_2dp"
+        android:layout_width="match_parent"
+        android:text="@string/_3_hours_ago"
+        android:theme="@style/TextSecondary" />
+
+    <TextView
+        android:contentDescription="@string/title_item_cd"
+        android:id="@+id/title"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_5dp"
+        android:layout_width="match_parent"
+        android:text="@string/video_blog_script_1"
+        android:textStyle="bold"
+        android:theme="@style/TextPrimary" />
+
+    <TextView
+        android:contentDescription="@string/script_body_cd"
+        android:id="@+id/body"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_2dp"
+        android:layout_width="match_parent"
+        android:maxLines="3"
+        android:text="@string/accused_of_continuing_to_track_users_movements_even_when_they_have_turned_off_their_location_history_google_is_being_sued_in_the_united_states_for_unauthorised_location_data_collection"
+        android:theme="@style/TextPrimary" />
+
+</LinearLayout>

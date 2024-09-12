@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/controls"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="@dimen/cardview_default_elevation"
+    app:cardBackgroundColor="@color/gray">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/scroll_control_cd"
+        android:background="@color/gray">
+
+        <SeekBar
+            android:id="@+id/speedSeekBar"
+            android:layout_width="200dp"
+            android:layout_height="21dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:contentDescription="@string/scroll_speed_cd"
+            android:max="100"
+            app:layout_constraintStart_toEndOf="@id/controlButton"/>
+
+        <TextView
+            android:id="@+id/speedValue"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:text="@string/_0"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:contentDescription="@string/scroll_speed_val_cd"
+            app:layout_constraintStart_toEndOf="@id/speedTv" />
+
+        <TextView
+            android:id="@+id/speedTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="@string/speed"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@id/speedSeekBar"/>
+
+        <ImageButton
+            android:id="@+id/controlButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/play_pause_cd"
+            android:background="@color/gray"
+            android:src="@drawable/ic_play"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

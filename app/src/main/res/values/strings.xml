@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Teleprompter</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac turpis egestas maecenas pharetra convallis. Facilisis leo vel fringilla est ullamcorper eget nulla facilisi etiam. Netus et malesuada fames ac turpis egestas sed tempus. Tincidunt id aliquet risus feugiat. Faucibus pulvinar elementum integer enim. Volutpat sed cras ornare arcu dui vivamus arcu. Viverra maecenas accumsan lacus vel facilisis volutpat. Quis ipsum suspendisse ultrices gravida. Praesent elementum facilisis leo vel fringilla. Risus at ultrices mi tempus imperdiet nulla malesuada. Sed id semper risus in. Cursus turpis massa tincidunt dui ut ornare lectus sit.  Massa placerat duis ultricies lacus sed. Dui nunc mattis enim ut tellus elementum sagittis vitae. Sed vulputate mi sit amet. Pharetra massa massa ultricies mi quis hendrerit dolor magna eget. Amet commodo nulla facilisi nullam. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Cras adipiscing enim eu turpis. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Aenean vel elit scelerisque mauris pellentesque pulvinar. Pharetra pharetra massa massa ultricies. Pharetra magna ac placerat vestibulum lectus mauris ultrices. Vivamus at augue eget arcu dictum varius duis at consectetur. Lectus magna fringilla urna porttitor. \nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac turpis egestas maecenas pharetra convallis. Facilisis leo vel fringilla est ullamcorper eget nulla facilisi etiam. Netus et malesuada fames ac turpis egestas sed tempus. Tincidunt id aliquet risus feugiat. Faucibus pulvinar elementum integer enim. Volutpat sed cras ornare arcu dui vivamus arcu. Viverra maecenas accumsan lacus vel facilisis volutpat. Quis ipsum suspendisse ultrices gravida. Praesent elementum facilisis leo vel fringilla. Risus at ultrices mi tempus imperdiet nulla malesuada. Sed id semper risus in. Cursus turpis massa tincidunt dui ut ornare lectus sit.  Massa placerat duis ultricies lacus sed. Dui nunc mattis enim ut tellus elementum sagittis vitae. Sed vulputate mi sit amet. Pharetra massa massa ultricies mi quis hendrerit dolor magna eget. Amet commodo nulla facilisi nullam. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Cras adipiscing enim eu turpis. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Aenean vel elit scelerisque mauris pellentesque pulvinar. Pharetra pharetra massa massa ultricies. Pharetra magna ac placerat vestibulum lectus mauris ultrices. Vivamus at augue eget arcu dictum varius duis at consectetur. Lectus magna fringilla urna porttitor.</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="scroll_speed_cd">Scroll speed indicator for indicating scrolling/reading speed.</string>
+    <string name="scroll_speed_val_cd">Scrolling/reading speed value.</string>
+    <string name="play_pause_cd">Play/Pase button to pause and play script in presentation mode.</string>
+    <string name="scroll_control_cd">Script control panel for controlling Reading speed and play/pause scrpt.</string>
+    <string name="script_presentation_card_cd">Script/presentation card item.</string>
+    <string name="time_item_cd">Time when script/presentation was last modified.</string>
+    <string name="title_item_cd">Script/Presentation title</string>
+    <string name="script_body_cd">Script/Presentation body contents.</string>
+    <string name="option_menu_cd">Create Scrip/Presentation options menu.</string>
+    <string name="create_new_script_cd">Create new script from typing option.</string>
+    <string name="upload_new_script_cd">Upload script from SD card option.</string>
+    <string name="upload_from_gallery">Upload from gallery</string>
+    <string name="create_new_script">Create new script</string>
+    <string name="speed">speed</string>
+    <string name="_0">0</string>
+    <string name="home_ccd">Home page.</string>
+    <string name="scripts_list_cd">List of scripts/ presentations.</string>
+    <string name="add_new_cript_cd">Add new Script option.</string>
+    <string name="script_actual_cd">Script/presentation body content</string>
+    <string name="script_body_edit_cd">Script/presentation input</string>
+    <string name="add_new_script">Script/presentation body here..</string>
+    <string name="presentation_cd">Present script</string>
+    <string name="save_cd">Save</string>
+    <string name="save">SAVE</string>
+    <string name="play">Play</string>
+    <string name="add_new_script_title">Script title..</string>
+    <string name="create_new_title">Create new script</string>
+    <string name="_3_hours_ago">3 hours ago</string>
+    <string name="video_blog_script_1">Video Blog script 1</string>
+    <string name="accused_of_continuing_to_track_users_movements_even_when_they_have_turned_off_their_location_history_google_is_being_sued_in_the_united_states_for_unauthorised_location_data_collection">Accused of continuing to track users\' movements even when they have turned off their location history, Google is being sued in the United States for unauthorised location data collection</string>
+    <string name="appwidget_text">Oops! no scripts</string>
+    <string name="add_widget">Add widget</string>
+    <string name="ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_app_id">ca-app-pub-9144852064234141~3262927825</string>
+    <string name="app_tile">Telepromptr</string>
+</resources>

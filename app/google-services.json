@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "893761097635",
+    "firebase_url": "https://telepromptr-b33ab.firebaseio.com",
+    "project_id": "telepromptr-b33ab",
+    "storage_bucket": "telepromptr-b33ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893761097635:android:eb6b54939939100e",
+        "android_client_info": {
+          "package_name": "com.inc.thamsanqa.telepromptr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893761097635-s8jes4t1a249vi2ks1a8ssagas2euq2j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inc.thamsanqa.telepromptr",
+            "certificate_hash": "a3bcbb9a43f6f2eeb3e5b84b0133df221a1c7833"
+          }
+        },
+        {
+          "client_id": "893761097635-9vvhh5g3ha3pdqi6aomukgh7tja063o2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu-kAhFiEGcx7zsmHWHxWJwVsANCaUh8A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893761097635-9vvhh5g3ha3pdqi6aomukgh7tja063o2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
